@@ -1,0 +1,19 @@
+path: /kaggle/input/chilli-leaf-disease
+
+names:
+- cercospora
+- healthy
+- murda complex
+- nutritional deficiency
+- powdery mildew
+
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: chilli-leaf-disease
+  url: https://universe.roboflow.com/object-detection-dataset-9n0c2/chilli-leaf-disease/dataset/2
+  version: 2
+  workspace: object-detection-dataset-9n0c2
+test: ../test/images
+train: ../train/images
+val: ../valid/images
